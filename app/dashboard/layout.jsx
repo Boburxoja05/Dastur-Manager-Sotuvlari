@@ -4,9 +4,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const NAV = [
-  { href: "/dashboard",            label: "Dashboard" },
-  { href: "/dashboard/menejerlar", label: "Menejerlar" },
-  { href: "/dashboard/sotuvlar",   label: "Haftalik tahlil" },
+  { href: "/dashboard",              label: "Dashboard" },
+  { href: "/dashboard/menejerlar",   label: "Menejerlar" },
+  { href: "/dashboard/sotuvlar",     label: "Haftalik tahlil" },
+  { href: "/dashboard/solishtirish", label: "Solishtirish" },
 ];
 
 export default function DashboardLayout({ children }) {
