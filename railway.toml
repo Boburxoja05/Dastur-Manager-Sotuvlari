@@ -3,10 +3,6 @@ builder = "nixpacks"
 buildCommand = "npm run build"
 
 [deploy]
-startCommand = "node .next/standalone/server.js"
+startCommand = "npm start"
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 3
-
-[environments.production.variables]
-PORT = "3000"
-NODE_ENV = "production"
